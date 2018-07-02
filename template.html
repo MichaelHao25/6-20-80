@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+
+<head design-width="720">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+	<!-- 优先使用 IE 最新版本和 Chrome -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<!-- 启用360浏览器的极速模式(webkit) -->
+	<!-- <link rel="shortcut icon" type="image/ico" href="/favicon.ico"/> -->
+	<!-- 添加 favicon icon -->
+	<meta name="renderer" content="webkit">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/public.css" />
+	<script src="js/font-size.js"></script>
+</head>
+
+<body>
+	<header class="header download pc">
+		<div class="game">
+			<div class="pic">
+				<img src="img/d1a80d32718807a8c1238752e9a747e8-101+101.jpg" alt="">
+			</div>
+			<div class="content">
+				<h3>风帆争霸</h3>
+				<p>全球实时海战休闲竞技手游</p>
+			</div>
+		</div>
+		<div class="btn-download" data-ios="http://www.baidu.com" data-android='http://www.sogou.com'>
+			<img src="img/f812b90cc8bfdb586c292be985f86d3f-162+49.png" alt="">
+		</div>
+	</header>
+	<main class="main">
+		<div class="btn-download" data-ios="http://www.baidu.com" data-android='http://www.sogou.com'>
+			<img src="img/5014e73502b98646a5eaad37220ec449-484+146.png" alt="">
+		</div>
+		<img src="./img/images/main_01.jpg" alt="">
+		<img src="./img/images/main_02.jpg" alt="">
+		<img src="./img/images/main_03.jpg" alt="">
+		<img src="./img/images/main_04.jpg" alt="">
+		<img src="./img/images/main_05.jpg" alt="">
+		<img src="./img/images/main_06.jpg" alt="">
+		<img src="./img/images/main_07.jpg" alt="">
+		<img src="./img/images/main_08.jpg" alt="">
+		<img src="./img/images/main_09.jpg" alt="">
+		<img src="./img/images/main_10.jpg" alt="">
+		<img src="./img/images/main_11.jpg" alt="">
+		<img src="./img/images/main_12.jpg" alt="">
+		<img src="./img/images/main_13.jpg" alt="">
+		<img src="./img/images/main_14.jpg" alt="">
+		<img src="./img/images/main_15.jpg" alt="">
+		<img src="./img/images/main_16.jpg" alt="">
+		<img src="./img/images/main_17.jpg" alt="">
+		<img src="./img/images/main_18.jpg" alt="">
+		<img src="./img/images/main_19.jpg" alt="">
+		<img src="./img/images/main_20.jpg" alt="">
+	</main>
+	<script src="js/jquery-3.1.0.min.js"></script>
+	<script>
+		$('.btn-download').on('click',function() {
+			if(navigator.userAgent.search(/(iPhone)|(iPad)/)!=-1){
+				window.location.href = $(this).attr('data-ios');	
+			}
+			if(navigator.userAgent.search(/(Android)/)!=-1){
+				window.location.href = $(this).attr('data-android');	
+			}	
+		});
+	</script>
+</body>
+
+</html>

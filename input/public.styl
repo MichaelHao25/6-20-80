@@ -1,0 +1,66 @@
+@import "reset.css";
+/*引入css文件的一种方式*/
+/*
+
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#99ffffff,endColorstr=#99ffffff)";
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99ffffff,endColorstr=#99ffffff);
+background:rgba(255,255,255,.8);
+
+
+ filter:alpha(opacity=40); 针对 IE8 以及更早的版本 */
+ body{
+ 	font-size: 16Px;
+ }
+
+.main
+	position relative
+	img
+		display block
+		width 100%
+	.btn-download
+		position absolute
+		top 850px
+		left 126px
+		width 484px
+		img
+			display block
+			width 100%
+.header
+	position fixed
+	top 0
+	left 0
+	right 0
+	height 125px
+	background #000000
+	display flex
+	z-index 1
+	justify-content space-between
+	align-items center
+	padding 0 26px 0 12px
+	.game
+		display flex
+		align-items center
+		.pic
+			display block
+			width 100px
+			img
+				display block
+				width 100%
+				border-radius 10px
+		.content
+			padding-left 15px
+		h3
+			font-size 39px
+			color #ffffff
+			padding-bottom 10px
+			line-height 1
+			font-family 'SimHei','SimYou'
+		p
+			font-size 12px
+			color #ffffff
+			line-height 1
+			font-family 'SimHei','SimYou'
+	.btn-download
+		img
+			display block
+			width 162px

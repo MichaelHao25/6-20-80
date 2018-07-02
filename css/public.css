@@ -1,0 +1,78 @@
+@import "reset.css";
+/*引入css文件的一种方式*/
+/*
+
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#99ffffff,endColorstr=#99ffffff)";
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99ffffff,endColorstr=#99ffffff);
+background:rgba(255,255,255,.8);
+
+
+ filter:alpha(opacity=40); 针对 IE8 以及更早的版本 */
+body {
+  font-size: 16Px;
+}
+.main {
+  position: relative;
+}
+.main img {
+  display: block;
+  width: 100%;
+}
+.main .btn-download {
+  position: absolute;
+  top: 8.5rem;
+  left: 1.26rem;
+  width: 4.84rem;
+}
+.main .btn-download img {
+  display: block;
+  width: 100%;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1.25rem;
+  background: #000;
+  display: flex;
+  z-index: 1;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.26rem 0 0.12rem;
+}
+.header .game {
+  display: flex;
+  align-items: center;
+}
+.header .game .pic {
+  display: block;
+  width: 1rem;
+}
+.header .game .pic img {
+  display: block;
+  width: 100%;
+  border-radius: 0.1rem;
+}
+.header .game .content {
+  padding-left: 0.15rem;
+}
+.header .game h3 {
+  font-size: 0.39rem;
+  color: #fff;
+  padding-bottom: 0.1rem;
+  line-height: 1;
+  font-family: 'SimHei', 'SimYou';
+}
+.header .game p {
+  font-size: 0.12rem;
+  color: #fff;
+  line-height: 1;
+  font-family: 'SimHei', 'SimYou';
+}
+.header .btn-download img {
+  display: block;
+  width: 1.62rem;
+}
+
+/*# sourceMappingURL=public.css.map */
